@@ -1,0 +1,59 @@
+@charset "utf-8";
+@import url(common.css);
+
+body{ background: url(../img/menu_bg.png) repeat-x 0 0px;  }
+
+#wrap{ background: url(../img/bottom_bg.png) repeat-x 0 bottom; }
+
+#header{ width: 960px; margin: 0 auto; position: relative; }
+	.logo{ display: block;  float: left; padding: 54px 0 34px 0;}
+	.logo:after{content: ""; display: block; clear: both;	}
+	.search { display: block; float: left; padding: 60px 0 34px 120px; }
+	.search:after{content: ""; display: block; clear: both;	}
+	.top{ position: absolute; right: 0px; top: 16px;	}
+	.top dd{ float: left;	margin-right: 4px;	}
+	.top dd.last{	margin-left: 5px;	margin-right: 0; }	
+	.top dd:after{	content: " "; display: block; clear: left;	}
+	.nav{ padding-top: 119px; zoom: 1;	}
+	.nav:after{	content: ""; display: block; clear: both; }
+	.nav li{ float: left; }
+	.nav li a{ display: block;	overflow: hidden; width: 160px; background: no-repeat 0 -35px;	height: 35px; text-indent: -9999em;	}
+	.nav li a#menu1{ background-image: url(../img/menu1.png);}
+	.nav li a#menu2{ background-image: url(../img/menu1.png);}
+	.nav li a#menu3{ background-image: url(../img/menu1.png);}
+	.nav li a#menu4{ background-image: url(../img/menu1.png);}
+	.nav li a#menu5{ background-image: url(../img/menu1.png);}
+	.nav li a#menu6{ background-image: url(../img/menu1.png);}	
+	.nav li a:hover{ background-position: 0 0px; }
+
+#container{ width: 960px; margin: 0 auto;  margin-top: 20px; padding-bottom: 40px;	zoom: 1; }
+#container:after{ content'';	display: block;	clear: both;}
+	#contents{}	
+	#contents:after{ content'';	display: block;	clear: both;}
+	
+#footer1{ width: 960px; margin: 0 auto;  color: #888888; border-top: 1px solid #ccc; font-size: 0.9em;	zoom: 1;  }	
+#footer1:after{	content: ''; display: block;	clear: both;}
+#footer1 a{	color: #aaaaaa;}
+#footer1 a:hover{ color: brown;}
+	.btmMenu{	float: right;	padding: 20px 6px 20px 0;	}
+	.btmMenu dd{	float: right;	}
+	.btmMenu dd:after{	content: '|';	padding: 0 0.3em;	}
+	.btmMenu dd.last:after{	content: '';	padding: 0 0;	}
+	
+#footer2{ width: 960px; margin: 0 auto;  color: #888888; border-top: 1px solid #ccc; font-size: 0.9em;	zoom: 1; bottom: 0; }
+#footer2:after{	content: ''; display: block;	clear: both;}
+#footer2 a{	color: #aaaaaa;}
+#footer2 a:hover{ color: brown;}
+	.logo_bottom {	display: block; float: left;	padding: 44px 0 0 10px; }
+	.copy{	display: block; float: left;	padding: 20px 0 20px 40px; line-height: 1.8; color:#767370; }
+	
+
+
+div #title {font-size: 40px; color: #666666; margin-bottom: 10px;}
+table tr th { bgroundcolor: #eee;}
+
+.viewcss div { width: 840px;  border: solid 1px #eee; margin-right: 10px; text-align:left;}
+.viewcotents{height: 300px;}
+
+#logintable{width:400px;}
+#registertable{width:400px;}
