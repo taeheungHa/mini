@@ -8,7 +8,7 @@ import myShop.order.db.OrderBean;
 public class CartMgr {
 	
     private Hashtable hCart = new Hashtable();
-
+    private String test;
     public CartMgr() {
     }
 
